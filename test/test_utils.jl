@@ -18,6 +18,12 @@ function create_person_df(n_samples = 10)
 
     return df
 end
+
+function create_log_df(log = 10)
+    df = DataFrame(height=[log^1,log^2,log^3],weight=[log^3,log^2,log^1],age=[log^3,log^2,log^1],income=[log^1,log^2,log^3])
+    return df
+end
+
 function create_car_df(n_samples = 10)
 
     seed!(10)
