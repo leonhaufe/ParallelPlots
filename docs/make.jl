@@ -9,7 +9,7 @@ makedocs(;
     authors="Moritz Schelten <moritz155@win.tu-berlin.de>, Leon Haufe <leon.haufe@campus.tu-berlin.de>",
     sitename="ParallelPlots",
     format=Documenter.HTML(;
-        canonical="https://moritz155.github.io/ParallelPlots",
+        canonical="https://leonhaufe.github.io/ParallelPlots",
         edit_link="main",
         assets=String[],
     ),
@@ -21,6 +21,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/moritz155/ParallelPlots",
+    repo="github.com/leonhaufe/ParallelPlots",
     devbranch="main",
 )
